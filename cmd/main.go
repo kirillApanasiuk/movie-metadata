@@ -1,10 +1,10 @@
 package main
 
 import (
+	controller "github.com/kirillApanasiuk/movie-metadata/internal/controller/metadata"
+	httpHandler "github.com/kirillApanasiuk/movie-metadata/internal/handler"
+	"github.com/kirillApanasiuk/movie-metadata/internal/repository/memory"
 	"log"
-	controller "movie.com/internal/controller/metadata"
-	httpHandler "movie.com/internal/handler"
-	"movie.com/internal/repository/memory"
 	"net/http"
 )
 

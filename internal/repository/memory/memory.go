@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"movie.com/internal/repository"
-	"movie.com/model"
+	"github.com/kirillApanasiuk/movie-metadata/internal/repository"
+	"github.com/kirillApanasiuk/movie-metadata/model"
 )
 
 type Repository struct {

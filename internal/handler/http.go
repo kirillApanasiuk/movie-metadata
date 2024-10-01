@@ -3,11 +3,11 @@ package http
 import (
 	"encoding/json"
 	"errors"
+	"github.com/kirillApanasiuk/movie-metadata/internal/repository"
 	"log"
-	"movie.com/internal/repository"
 	"net/http"
 
-	"movie.com/internal/controller/metadata"
+	"github.com/kirillApanasiuk/movie-metadata/internal/controller/metadata"
 )
 
 type Handler struct {
